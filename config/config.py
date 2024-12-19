@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = getenv("API_ID", "")
-API_HASH = getenv("API_HASH", "")
+API_ID = getenv("API_ID", "23272158")
+API_HASH = getenv("API_HASH", "9c6b7311bf4b00c649674db048c52cbf")
 
 # Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAGSbwF2YK5X6zzbt_vfWf7ojR88jwD7Mx0")
 
 # Database to save your chats and stats.
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "760"))  # Remember to give value in Minutes
@@ -23,13 +23,13 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "760"))  # Remember to give va
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "360"))  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002028213552"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Konuşanlar music")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))  # Input type must be integer
+OWNER_ID = list(map(int, getenv("OWNER_ID", " 7583810003").split()))  # Input type must be integer
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -38,15 +38,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SakirBey1/ZeroMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Hamza4900/ze")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN (if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only Links formats are accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)  
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)  
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/konnusanlar")  
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/konnusanlar")  
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
